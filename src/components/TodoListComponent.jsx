@@ -6,7 +6,7 @@ import {GrStatusGood} from 'react-icons/gr'
 import {GrStatusUnknown} from 'react-icons/gr'
 
 
-// import './TodoList.css'
+import './TodoList.css'
 const TodoListComponent = () => {
   const [text,setText] = useState('')
   const [taskList,setTaskList] = useState([])

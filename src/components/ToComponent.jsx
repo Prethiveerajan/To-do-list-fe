@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// import 'TodoList.css'
 
 export default class ToComponent extends Component {
 
@@ -6,9 +7,7 @@ export default class ToComponent extends Component {
     return (
       <div>
         <h3> ToDo List Component</h3>
-        <h4>
-             ADD a new Task:
-        </h4>
+        
       </div>
     )
   }
